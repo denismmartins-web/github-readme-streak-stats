@@ -22,7 +22,7 @@ jobs:
       - name: Gerar imagem do GitHub Streak
         uses: denismmartins-web/github-readme-streak-stats@vercel
         with:
-          options: user=denismmartins-web&theme=default&locale=pt_BR
+          options: user=denismmartins-web&theme=tokyonight&locale=pt_BR
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
